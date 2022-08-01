@@ -11,6 +11,11 @@ main {
     line-height: 150%;
 }
 
+.me {
+    width: 600px;
+    height: 400px;
+}
+
 .coding {
     background-color: var(--light);
 }
@@ -61,6 +66,8 @@ main {
     justify-content: center;
     flex-direction: column;
 }
+
+#projects
 
 #contact-me {
     color: red;
