@@ -3,12 +3,17 @@
     --light: #ADD8E6;
 }
 
+body {
+    background-color: bisque;
+}
+
 p {
     color: red;
 }
 
 main {
     line-height: 150%;
+    flex-wrap: wrap;
 }
 
 .me {
@@ -18,6 +23,9 @@ main {
 
 .coding {
     background-color: var(--light);
+    border-width: 1px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .see {
@@ -67,8 +75,6 @@ main {
     flex-direction: column;
 }
 
-#projects
-
 #contact-me {
     color: red;
 }
@@ -84,7 +90,9 @@ main {
 
 #me {
     color: purple;
-
+    background-color: grey;
+    border: black;
+    border-style: solid;
 }
 
 @media screen and (max-width:830px) {
